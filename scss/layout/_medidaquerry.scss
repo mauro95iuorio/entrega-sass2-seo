@@ -1,0 +1,52 @@
+@media (max-width: 896px){
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .ulQueri{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .navIndex{
+        background-color: rgb(144, 150, 136);
+    }
+    .navLi{
+        margin-left: 0;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .mainIndex{
+      display: flex;
+      flex-direction: column;
+
+    }
+    .formindex{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .imgZoom{
+        display: none;
+    }
+    .imgBlur{
+        filter: blur(0px);
+    }
+    .contenedor-contactanos{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgNosotros{
+        display: flex;
+        justify-content: center;
+    }
+    .videoConocenos{
+        display: flex;
+        justify-content: center;
+    }
+    .imgConocenos{
+        filter: blur(0px);
+    }
+}

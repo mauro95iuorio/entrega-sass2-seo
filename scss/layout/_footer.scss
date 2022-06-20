@@ -1,0 +1,33 @@
+.footer-container{    
+    a{
+        color: $titulos;
+    }
+    display: grid;
+    grid-template-columns: (4 1fr);
+    grid-template-areas: 
+    "f-con f-pagos f-redes f-at"
+    ;
+    .f-con{
+        grid-area: f-con;
+        list-style: none;
+        @extend .liStyle;
+    }
+    .f-pagos{
+        grid-area: f-pagos;
+        list-style: none;
+        @extend .liStyle;
+    }
+    .f-redes{
+        grid-area: f-redes;
+        list-style: none;
+        @extend .liStyle;
+    }
+    .f-at{
+        grid-area: f-at;
+        list-style: none;
+        @extend .liStyle;
+    }
+    .tituloFooter{
+        background-color: $bg2;
+    }
+}

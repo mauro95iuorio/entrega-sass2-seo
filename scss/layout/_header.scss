@@ -1,0 +1,48 @@
+header{
+    background-color: $bg2;
+    border-style: groove;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: (3 1fr);
+    grid-template-areas: 
+    "tituloHeader navIndex navIndex ";
+    .tituloContainer{
+        .tituloHeader{
+            grid-area: tituloHeader;
+            margin-right: 100px;
+            margin-left: 50px;
+            
+            a{
+                color: $titulos;
+                text-decoration: none;          
+            }
+        }
+    }
+    .navIndex{
+        grid-area: navIndex;
+
+        nav{
+            ul{
+                @include flex-around();
+
+                .navLi{
+                    display: inline-block;
+                    margin-left: 100px;
+                    margin-top: 10px;
+                    list-style-type: none;
+                    @extend .liStyle;
+                    a, a:visited, a:hover, a:active {
+                        color: inherit;
+                      }
+                    
+                }
+            }
+        } 
+    }
+} 
+
+
+
+  
+
+

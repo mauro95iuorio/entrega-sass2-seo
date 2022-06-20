@@ -1,0 +1,59 @@
+/*main index*/
+.mainIndex{
+    display: grid;
+    grid-template-columns: (2 1fr);
+    grid-template-areas: 
+    "formindex imgZoom"
+    ;
+    .formindex{
+        background-color: $bg2;
+        border-style: groove;
+        grid-area: formindex;
+        margin-right: 500px;
+        margin-left: 200px;
+        .formindextitulo{
+            background-color: $bg;
+            color: $titulos;
+            font-size: larger;
+            margin-right: 300px;
+            margin-bottom: 44px;
+        } 
+    }
+}
+
+
+.imgZoom:hover  {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    transition: 0.5s;
+}
+.imgZoom{
+    overflow:hidden;
+    grid-area: imgZoom;
+
+}
+/* main conocenos*/
+.imgConocenos {
+    filter: blur(2.5px);
+}
+.imgConocenos:hover{
+    transition: 0.7s;
+    filter: none;
+}
+.videoConoc{
+    display: flex;
+    justify-content: center;
+    
+}
+.videoConocenos{
+    
+    width: 800px;
+    height: 400px;
+}
+/*main destinos */
+
+
+/*main contactanos*/ 
+
+
+/*main promociones*/
